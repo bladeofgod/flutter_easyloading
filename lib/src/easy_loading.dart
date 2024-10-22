@@ -133,6 +133,9 @@ class EasyLoading {
   /// radius of loading, default 5.0.
   late double radius;
 
+  ///indicator's margin, default 0
+  EdgeInsets indicatorContainerMargin = EdgeInsets.zero;
+
   /// fontSize of loading, default 15.0.
   late double fontSize;
 

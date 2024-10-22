@@ -147,6 +147,8 @@ class EasyLoadingTheme {
   /// radius of loading
   static double get radius => EasyLoading.instance.radius;
 
+  static EdgeInsets get indicatorContainerMargin => EasyLoading.instance.indicatorContainerMargin;
+
   /// should dismiss on user tap
   static bool? get dismissOnTap => EasyLoading.instance.dismissOnTap;
 

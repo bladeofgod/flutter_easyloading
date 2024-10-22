@@ -189,7 +189,7 @@ class _Indicator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.all(50.0),
+      margin: EasyLoadingTheme.indicatorContainerMargin,
       decoration: BoxDecoration(
         color: EasyLoadingTheme.backgroundColor,
         borderRadius: BorderRadius.circular(

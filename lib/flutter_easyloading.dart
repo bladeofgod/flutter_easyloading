@@ -24,4 +24,8 @@ library flutter_easyloading;
 
 export 'src/easy_loading.dart';
 export 'src/widgets/loading.dart';
+export 'src/widgets/container.dart';
+export 'src/widgets/indicator.dart';
+export 'src/widgets/overlay_entry.dart';
+export 'src/widgets/progress.dart';
 export 'src/animations/animation.dart';
